@@ -1,0 +1,52 @@
+.navbar-brand img{
+    height: 80px;
+    margin-left: 10% !important;
+}
+
+.nav-link:hover{
+    color: #E2CA1A !important;
+    text-decoration: underline;
+}
+
+.retangle{
+    width: 1px;
+    height: 40px;
+    background-color: #E2CA1A;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: none;
+}
+
+.nav-item{
+    margin-left: 10px !important;
+}
+
+.btn{
+    border: solid 1px #E2CA1A !important;
+}
+
+.btn svg{
+    padding-left: 5px;
+}
+
+.btn:hover{
+    color: #E2CA1A !important;
+}
+
+.btn:hover svg path{
+    fill: #E2CA1A;
+}
+
+.whats-btn{
+    display: flex;
+}
+
+.navbar-toggler{
+    margin-right: 10px;
+}
+
+@media(min-width: 992px){
+    .retangle{
+        display: flex;
+    }
+}
