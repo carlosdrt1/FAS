@@ -45,6 +45,10 @@
     margin-right: 10px;
 }
 
+nav{
+    border-bottom: solid 2px #E2CA1A;
+}
+
 @media(min-width: 992px){
     .retangle{
         display: flex;

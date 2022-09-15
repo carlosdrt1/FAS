@@ -1,14 +1,15 @@
 import React from "react";
 import "./App.css";
+import CardsSociais from "./components/cardsCompartilhe";
 import NavBar from "./components/navBar";
 import WhatsButton from "./components/whatsButton";
-import Home from "./pages/Home";
+import SobreNos from "./pages/SobreNos";
 
 function App() {
   return (
     <>
       <NavBar />
-      <Home />
+      <SobreNos/>
       <WhatsButton />
     </>
   );

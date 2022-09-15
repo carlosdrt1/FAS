@@ -1,0 +1,11 @@
+.card-img img{
+    height: 40px;
+    margin: 0 2px
+}
+
+.retangle-card{
+    width: 100%;
+    margin-bottom: 8px;
+    height: 1px;
+    background-color: #aaa;
+}
