@@ -1,4 +1,5 @@
 import CardsSociais from "../../components/cardsCompartilhe";
+import NavigationCard from "../../components/navigationCard";
 import "./styles.css";
 
 const SobreNos = () => {
@@ -12,7 +13,7 @@ const SobreNos = () => {
       </div>
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle">Sobre nós</h1>
+          <h1 className="tittle-sobrenos">Sobre nós</h1>
           <p>
             Lorem ipsum dolor sit amet. Nam ipsam animi ut consequatur ipsa non
             fugit rerum ad odit molestias aut repellat quibusdam et quia
@@ -39,8 +40,13 @@ const SobreNos = () => {
             facere qui aspernatur consequatur.
           </p>
         </div>
-        <div className="col-md-3">
-          <CardsSociais />
+        <div className="col-lg-3 d-flex flex-column justify-content-around">
+          <div>
+            <CardsSociais />
+          </div>
+          <div>
+            <NavigationCard />
+          </div>
         </div>
       </div>
     </div>

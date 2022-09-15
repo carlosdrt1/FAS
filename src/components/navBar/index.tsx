@@ -1,57 +1,60 @@
 import "./styles.css";
 import Logo from "../../assets/images/logo.png";
-import 'bootstrap/js/src/collapse.js';
+import "bootstrap/js/src/collapse.js";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <a href="#home" className="navbar-brand">
+      <Link to="/" className="navbar-brand">
         <img src={Logo} alt="" />
-      </a>
+      </Link>
       <button
-            className="navbar-toggler"
-           type="button"
-            data-bs-toggle="collapse"
-           data-bs-target="#items"
-           aria-controls="items"
-           aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#items"
+        aria-controls="items"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
 
-  <span className="navbar-toggler-icon"></span>
-</button>
-
-      <div className="collapse navbar-collapse justify-content-center" id="items">
+      <div
+        className="collapse navbar-collapse justify-content-center"
+        id="items"
+      >
         <ul className="navbar-nav" id="itens">
           <li className="nav-item">
-            <a className="nav-link" href="#inicio">
+            <Link to="/" className="nav-link">
               Início
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#sobrenos">
+            <Link className="nav-link" to="/sobre-nos">
               Sobre nós
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#servicos">
+            <Link className="nav-link" to="/servicos">
               Serviços
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#certidoes">
+            <Link className="nav-link" to="/links-uteis">
               Links Úteis
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#certidoes">
+            <Link className="nav-link" to="/certidoes">
               Certidões
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contatos">
+            <Link className="nav-link" to="/contatos">
               Contatos
-            </a>
+            </Link>
           </li>
           <div className="retangle"></div>
         </ul>
