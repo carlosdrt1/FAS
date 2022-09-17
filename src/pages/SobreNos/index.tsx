@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import CardsSociais from "../../components/cardsCompartilhe";
 import NavigationCard from "../../components/navigationCard";
 import "./styles.css";
@@ -6,14 +7,14 @@ const SobreNos = () => {
   return (
     <div className="container">
       <div className="navgation-items">
-        <a href="" className="nav-link">
+        <Link to="/" className="nav-link">
           Início
-        </a>
+        </Link>
         <p>&#62; Sobre Nós</p>
       </div>
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle-sobrenos">Sobre nós</h1>
+          <h1 className="tittle">Sobre nós</h1>
           <p>
             Lorem ipsum dolor sit amet. Nam ipsam animi ut consequatur ipsa non
             fugit rerum ad odit molestias aut repellat quibusdam et quia

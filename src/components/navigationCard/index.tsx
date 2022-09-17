@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./styles.css";
 
 const NavigationCard = () => {
@@ -9,19 +10,19 @@ const NavigationCard = () => {
       </div>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
-          <a href="" className="nav-link">
-            Serviços
-          </a>
+          <Link to="/" className="nav-link">
+            Inicio
+          </Link>
         </li>
         <li className="list-group-item">
-          <a href="" className="nav-link">
+          <Link to="contato" className="nav-link">
             Contato
-          </a>
+          </Link>
         </li>
         <li className="list-group-item">
-          <a href="" className="nav-link">
+          <Link to="links-uteis" className="nav-link">
             Links Úteis
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

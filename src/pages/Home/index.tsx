@@ -1,3 +1,4 @@
+import WhatsButton from "../../components/whatsButton";
 import "./styles.css";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
                     <p> Saiba como</p>
                 </button>
             </div>
+            <WhatsButton/>
         </div>
     )
 }

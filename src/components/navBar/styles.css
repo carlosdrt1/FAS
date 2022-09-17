@@ -47,6 +47,7 @@
 
 nav{
     border-bottom: solid 2px #E2CA1A;
+    box-shadow: 0 0 8px;
 }
 
 @media(min-width: 992px){
