@@ -6,11 +6,11 @@ import "./styles.css";
 const LinksUteis = () => {
   return (
     <div className="container">
-      <div className="navgation-items">
+      <div className="navigation-items">
         <Link to="/" className="nav-link">
-          Início
+          Início&nbsp;
         </Link>
-        <p>&#62; Links Úteis</p>
+        <p> &#62; Links Úteis</p>
       </div>
       <div className="row">
         <div className="col-lg-9">
@@ -99,7 +99,7 @@ const LinksUteis = () => {
             </li>
           </ul>
         </div>
-        <div className="col-lg-3 d-flex flex-column justify-content-around">
+        <div className="col-lg-3 container">
           <div>
             <CardsSociais />
           </div>

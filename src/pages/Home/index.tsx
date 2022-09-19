@@ -27,7 +27,7 @@ const Home = () => {
         <div className="container card-container">
           <div className="row">
             <div className="col-lg-4">
-              <div className="card position-static bg-light">
+              <div className="card position-static bg-light border-dark">
                 <img src={card1} alt="" className="card-img-top" />
                 <div className="card-body text-center">
                   <h4 className="card-tittle">Acessoria empresarial</h4>
@@ -42,7 +42,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-lg-4">
-              <div className="card position-static bg-light">
+              <div className="card position-static bg-light border-warning">
                 <img src={card2} alt="" className="card-img-top" />
                 <div className="card-body text-center">
                   <h4 className="card-tittle">Certificado Digital</h4>

@@ -6,9 +6,9 @@ import "./styles.css";
 const SobreNos = () => {
   return (
     <div className="container">
-      <div className="navgation-items">
+      <div className="navigation-items">
         <Link to="/" className="nav-link">
-          Início
+          Início&nbsp;
         </Link>
         <p>&#62; Sobre Nós</p>
       </div>

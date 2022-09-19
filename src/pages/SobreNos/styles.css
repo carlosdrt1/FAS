@@ -1,6 +1,6 @@
-.navgation-items{
+.navigation-items{
     display: flex;
-    width: 150px;
+    width: fit-content;
     justify-content: space-around;
     margin-top: 30px;
 }
