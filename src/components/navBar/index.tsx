@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
       <Link to="/" className="navbar-brand">
         <img src={Logo} alt="" />
       </Link>
@@ -37,9 +37,31 @@ const NavBar = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/servicos">
-              Serviços
-            </Link>
+            <div className="dropdown">
+              <button
+                className="btn dropdown-toggle btn-dropdown"
+                data-bs-toggle="dropdown"
+              >
+                Serviços
+              </button>
+              <ul className="dropdown-menu">
+                <li>
+                  <Link to="/servicos/1" className="dropdown-item">Acessoria empresarial</Link>
+                </li>
+                <li>
+                  <div className="dropdown-divider"></div>
+                </li>
+                <li>
+                  <Link to="/servicos/2" className="dropdown-item">Certificado Digital</Link>
+                </li>
+                <li>
+                  <div className="dropdown-divider"></div>
+                </li>
+                <li>
+                  <Link to="/servicos/3" className="dropdown-item">Escrituração contábil, fiscal e trabalhista</Link>
+                </li>
+              </ul>
+            </div>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/links-uteis">
@@ -58,7 +80,12 @@ const NavBar = () => {
           </li>
           <div className="retangle"></div>
         </ul>
-        <a href="https://wa.me/5588996499995" target="_blank" rel="noopener noreferrer" className="nav-link">
+        <a
+          href="https://wa.me/5588996499995"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="nav-link"
+        >
           <button className="btn">
             Whatsapp
             <svg

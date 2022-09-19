@@ -3,7 +3,7 @@ import "./styles.css";
 
 const NavigationCard = () => {
   return (
-    <div className="card text-center bg-light">
+    <div className="card text-center bg-light border-secondary">
       <div className="card-body">
         <h5 className="card-tittle">Navegação</h5>
         <p className="card-text">Continue navegando</p>
@@ -15,12 +15,12 @@ const NavigationCard = () => {
           </Link>
         </li>
         <li className="list-group-item">
-          <Link to="contato" className="nav-link">
+          <Link to="/contatos" className="nav-link">
             Contato
           </Link>
         </li>
         <li className="list-group-item">
-          <Link to="links-uteis" className="nav-link">
+          <Link to="/links-uteis" className="nav-link">
             Links Úteis
           </Link>
         </li>

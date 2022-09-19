@@ -6,7 +6,7 @@ import face from "../../assets/images/faceIcon.svg";
 
 const CardsSociais = () => {
   return (
-    <div className="card text-center bg-light">
+    <div className="card text-center bg-light border-secondary">
       <div className="card-body">
         <div className="card-top">
           <div className="card-tittle">
@@ -15,10 +15,18 @@ const CardsSociais = () => {
         </div>
         <div className="retangle-card"></div>
         <div className="card-img">
-          <img src={insta} alt="" />
-          <img src={whats} alt="" />
-          <img src={mail} alt="" />
-          <img src={face} alt="" />
+          <a href="">
+            <img src={insta} alt="" />
+          </a>
+          <a href="">
+            <img src={whats} alt="" />
+          </a>
+          <a href="">
+            <img src={mail} alt="" />
+          </a>
+          <a href="">
+            <img src={face} alt="" />
+          </a>
         </div>
       </div>
     </div>

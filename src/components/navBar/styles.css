@@ -17,6 +17,10 @@
     display: none;
 }
 
+.btn-dropdown{
+    color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .nav-item{
     margin-left: 10px !important;
 }
@@ -48,6 +52,10 @@
 nav{
     border-bottom: solid 2px #E2CA1A;
     box-shadow: 0 0 8px;
+}
+
+.dropdown-item:hover{
+    color: #E2CA1A !important;
 }
 
 @media(min-width: 992px){
