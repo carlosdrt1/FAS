@@ -5,8 +5,9 @@
     border-radius: 10px;
     position: fixed;
     bottom: 25px;
-    left: 15px;
+    right: 15px;
     box-shadow: 3px 3px 10px #333;
+    display: none;
 }
 
 .btn-whatsapp a, a:hover{
@@ -25,4 +26,10 @@
     justify-content: space-around;
     align-items: center;
     padding: 6px;
+}
+
+@media(min-width: 992px){
+    .btn-whatsapp{
+        display: block;
+    }
 }

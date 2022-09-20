@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import CardsSociais from "../../components/cardsCompartilhe";
 import NavigationCard from "../../components/navigationCard";
+import WhatsButton from "../../components/whatsButton";
 import "./styles.css";
 
 const LinksUteis = () => {
@@ -108,6 +109,7 @@ const LinksUteis = () => {
           </div>
         </div>
       </div>
+      <WhatsButton/>
     </div>
   );
 };

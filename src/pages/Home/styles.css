@@ -13,6 +13,7 @@
   animation-name: chegada;
 }
 
+
 .home-container {
   display: flex;
   align-items: center;
@@ -22,16 +23,19 @@
 }
 
 .card{
-    margin-bottom: 20px;
-
-}
-
-.image-faleconosco{
-  border-radius: 10px !important;
+    margin-bottom: 30px;
 }
 
 .home-content-container h3 {
   padding: 0 20px 0 20px;
+}
+
+.fale-conosco img{
+  display: none;
+}
+
+.fale-conosco-text{
+  margin: 15px 0 !important;
 }
 
 .btn-home {
@@ -45,25 +49,23 @@
   padding: 4px 8px;
 }
 
-.fale-conosco img{
-  border-radius: 25px
-}
-
 
 .btn-home:hover p {
   color: white;
 }
 
-.fale-conosco img{
-  margin-top: 30px;
+.fale-conosco .btn{
+  color: white;
 }
 
 .fale-conosco{
-  margin-bottom: 40px;
+  border-top: solid 2px #e2ca1a;
+  border-bottom: solid 2px #e2ca1a;
 }
 
 .map-container{
   padding: 0 !important;
+  margin-bottom: -37px;
 }
 
 @media (min-width: 596px) {
@@ -99,6 +101,10 @@
     height: 400px;
   }
 
+  .fale-conosco img{
+    display: block;
+  }
+
   .home-content-container {
     height: 440px;
     margin-bottom: -40px;
@@ -109,6 +115,9 @@
   .home-content-container h3 {
     padding: 0 170px 0 170px;
   }
+  
+  
+
 }
 
 .tittle-servicos-home {

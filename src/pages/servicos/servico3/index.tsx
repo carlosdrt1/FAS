@@ -2,7 +2,6 @@ import { Link } from "react-router-dom";
 import CardsSociais from "../../../components/cardsCompartilhe";
 import NavigationCard from "../../../components/navigationCard";
 import "./styles.css";
-import Image from "../../../assets/images/servico3.svg";
 import FaleConosco from "../../../components/faleConosco";
 
 const Servico3 = () => {
@@ -13,49 +12,49 @@ const Servico3 = () => {
           Início&nbsp;
         </Link>
         <p>&#62; Servicos&nbsp;</p>
-        <p>&#62; Escrituração contábil, fiscal e trabalhista</p>
+        <p>&#62; Digitalização de documentos</p>
       </div>
 
       <div className="row">
         <div className="col-lg-9">
-          <div className="col-lg-9">
-            <img src={Image} alt="" className="col-lg-12" />
-          </div>
-          <h1 className="tittle tittle-servicos">Escrituração contábil, fiscal e trabalhista</h1>
+          <h1 className="tittle tittle-servicos">
+            Digitalização de documentos
+          </h1>
           <p>
-            Lorem ipsum dolor sit amet. Et voluptatem cupiditate est
-            reprehenderit voluptates et pariatur corrupti est placeat. Aut
-            maxime illum aut omnis dolorem ut perspiciatis rerum?{" "}
+            Lorem ipsum dolor sit amet. Et nesciunt illo At aperiam esse{" "}
+            <em>At tenetur id veritatis quam</em>? Et consequatur commodi ut
+            magni perferendis non rerum excepturi ut earum eaque est commodi
+            velit ut impedit veritatis ut quia quia.{" "}
+          </p>
+          <p>
+            Est cumque dicta{" "}
+            <em>
+              Qui iste et iure quia sed doloribus molestiae aut enim debitis
+            </em>
+            . In magnam quas odit error aut sequi veritatis sit voluptates rerum
+            quo eveniet voluptatibus in enim architecto eos placeat possimus.{" "}
+          </p>
+          <p>
+            Sed voluptatem pariatur est beatae soluta{" "}
+            <strong>
+              Ex voluptatem et molestiae aliquam qui ipsum deserunt qui aliquid
+              nemo
+            </strong>
+            . A laborum ut praesentium quisquam{" "}
+            <em>
+              Est incidunt ut aliquam nemo et tempore nulla ea quisquam alias
+            </em>
+            . Et consequatur temporibus et architecto esse ut voluptatem tempora
+            aut doloribus accusantium ut molestiae enim aut perferendis neque
+            qui repudiandae tempora. Sed perspiciatis quam non nostrum dolorem
+            cum voluptatibus porro et velit accusamus aut recusandae sunt ab
+            soluta dolorem.{" "}
           </p>
           <ul>
-            <li>Eos nulla corporis et iusto pariatur et adipisci deleniti! </li>
-            <li>
-              Et cupiditate sint ut laudantium soluta in quia eos voluptates
-              maiores.{" "}
-            </li>
-            <li>
-              Sit laboriosam galisum et iusto reiciendis 33 omnis recusandae quo
-              molestias cumque.{" "}
-            </li>
-            <li>Ea fugit quidem ut ducimus consequatur et iusto maiores. </li>
+            <li>Rem voluptatum porro non adipisci doloribus. </li>
+            <li>Quo odio possimus et blanditiis dolorum. </li>
+            <li>Sit nemo itaque non corporis placeat et omnis impedit. </li>
           </ul>
-          <h2>Est libero nemo ut doloribus enim sed repellat galisum? </h2>
-          <p>
-            Non sunt molestiae ea officiis dolor et corrupti debitis ea beatae
-            assumenda ut odio ipsum. Et repellat ipsam et quibusdam nostrum et
-            itaque accusamus a aliquid rerum est corporis velit est labore
-            quidem qui deserunt fugit. Vel error quia aut itaque repellendus ut
-            voluptatum illum. Sit dignissimos assumenda aut accusamus
-            voluptatibus et repudiandae tenetur 33 vitae laudantium sit amet
-            praesentium.{" "}
-          </p>
-          <h3>Est rerum molestiae qui iusto quis id incidunt autem. </h3>
-          <p>
-            Non facere veritatis qui quia enim aut saepe alias. Non natus
-            consequatur et esse nulla aut iure nostrum ut quos ducimus nam
-            fugiat quidem aut ratione unde hic architecto quae. At temporibus
-            fugiat qui molestiae repellendus et distinctio alias.{" "}
-          </p>
         </div>
         <div className="col-lg-3 d-flex flex-column justify-content-around">
           <div>
@@ -66,7 +65,7 @@ const Servico3 = () => {
           </div>
         </div>
         <div>
-            <FaleConosco/>
+          <FaleConosco />
         </div>
       </div>
     </div>

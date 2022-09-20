@@ -1,0 +1,28 @@
+.tittle-footer{
+    color: #E2CA1A;
+    padding-top: 20px;
+}
+
+footer{
+    margin-top: 30px;
+    border-top: solid 2px #E2CA1A;
+    box-shadow: 0 0 8px;
+}
+
+.footer-redes svg{
+    margin-right: 4px;
+}
+
+.footer-redes:hover svg path{
+    fill: #E2CA1A;
+}
+
+footer img{
+    display: none;
+}
+
+@media(min-width: 992px){
+    footer img{
+        display: block;
+    }
+}
