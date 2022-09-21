@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-black" id="navbar">
-      <Link to="/" className="navbar-brand">
+    <nav className="navbar navbar-expand-lg navbar-light bg-black navbar-dark" id="navbar">
+      <Link reloadDocument={true} to="/" className="navbar-brand">
         <img src={Logo} alt="" />
       </Link>
       <button
@@ -27,12 +27,12 @@ const NavBar = () => {
       >
         <ul className="navbar-nav" id="itens">
           <li className="nav-item">
-            <Link to="/" className="nav-link">
+            <Link reloadDocument={true} to="/" className="nav-link">
               Início
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/sobre-nos">
+            <Link reloadDocument={true} className="nav-link" to="/sobre-nos">
               Sobre nós
             </Link>
           </li>
@@ -46,7 +46,7 @@ const NavBar = () => {
               </button>
               <ul className="dropdown-menu">
                 <li>
-                  <Link to="/servicos/1" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/1" className="dropdown-item">
                     Acessoria em RH
                   </Link>
                 </li>
@@ -54,7 +54,7 @@ const NavBar = () => {
                   <div className="dropdown-divider"></div>
                 </li>
                 <li>
-                  <Link to="/servicos/2" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/2" className="dropdown-item">
                     Acessoria em controle interno
                   </Link>
                 </li>
@@ -62,19 +62,19 @@ const NavBar = () => {
                   <div className="dropdown-divider"></div>
                 </li>
                 <li>
-                  <Link to="/servicos/3" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/3" className="dropdown-item">
                     Digitalização de documentos
                   </Link>
                 </li>
                 <div className="dropdown-divider"></div>
                 <li>
-                  <Link to="/servicos/4" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/4" className="dropdown-item">
                     Consultoria em publicidade
                   </Link>
                 </li>
                 <div className="dropdown-divider"></div>
                 <li>
-                  <Link to="/servicos/5" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/5" className="dropdown-item">
                     Recarga de cartuchos em equipamentos de informática
                   </Link>
                 </li>
@@ -82,12 +82,12 @@ const NavBar = () => {
             </div>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/links-uteis">
+            <Link reloadDocument={true} className="nav-link" to="/links-uteis">
               Links Úteis
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/certidoes">
+            <Link reloadDocument={true} className="nav-link" to="/certidoes">
               Certidões
             </Link>
           </li>

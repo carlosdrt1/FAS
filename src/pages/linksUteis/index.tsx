@@ -8,7 +8,7 @@ const LinksUteis = () => {
   return (
     <div className="container">
       <div className="navigation-items">
-        <Link to="/" className="nav-link">
+        <Link reloadDocument={true} to="/" className="nav-link">
           Início&nbsp;
         </Link>
         <p> &#62; Links Úteis</p>

@@ -17,7 +17,7 @@ const Home = () => {
           <div className="home-content-container">
             <h3>Parceiros do seu crescimento</h3>
             <p>A ajuda que vc precisa</p>
-            <Link to="/sobre-nos">
+            <Link reloadDocument={true} to="/sobre-nos">
               <button className="btn-home">
                 <p> Saiba como</p>
               </button>
@@ -40,7 +40,7 @@ const Home = () => {
                       Dentre as distintas formas de assessoria empresarial,
                       oferecemos soluções técnicas para os nossos clientes.
                     </p>
-                    <Link to="/servicos/1" className="btn">
+                    <Link reloadDocument={true} to="/servicos/1" className="btn">
                       Saiba mais
                     </Link>
                   </div>
@@ -56,7 +56,7 @@ const Home = () => {
                       da empresa e funciona como uma assinatura digital com
                       validade (...)
                     </p>
-                    <Link to="/servicos/2" className="btn">
+                    <Link reloadDocument={true} to="/servicos/2" className="btn">
                       Saiba mais
                     </Link>
                   </div>
@@ -66,15 +66,13 @@ const Home = () => {
                 <div className="card position-static bg-light shadow">
                   <img src={card3} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">
-                      Consultoria em publicidade
-                    </h4>
+                    <h4 className="card-tittle">Consultoria em publicidade</h4>
                     <p>
                       Atendemos as necessidades das organizações, nas de
                       escrituração contábil, fiscal e trabalhista. Fale Conosco
                       e saiba mais.
                     </p>
-                    <Link to="/servicos/3" className="btn">
+                    <Link reloadDocument={true} to="/servicos/3" className="btn">
                       Saiba mais
                     </Link>
                   </div>
@@ -92,7 +90,7 @@ const Home = () => {
                       escrituração contábil, fiscal e trabalhista. Fale Conosco
                       e saiba mais.
                     </p>
-                    <Link to="/servicos/3" className="btn">
+                    <Link reloadDocument={true} to="/servicos/3" className="btn">
                       Saiba mais
                     </Link>
                   </div>
@@ -110,7 +108,7 @@ const Home = () => {
                       escrituração contábil, fiscal e trabalhista. Fale Conosco
                       e saiba mais.
                     </p>
-                    <Link to="/servicos/3" className="btn">
+                    <Link reloadDocument={true} to="/servicos/3" className="btn">
                       Saiba mais
                     </Link>
                   </div>
@@ -120,15 +118,13 @@ const Home = () => {
                 <div className="card position-static bg-light shadow">
                   <img src={card6} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">
-                      Agencias em publicidade
-                    </h4>
+                    <h4 className="card-tittle">Agencias em publicidade</h4>
                     <p>
                       Atendemos as necessidades das organizações, nas de
                       escrituração contábil, fiscal e trabalhista. Fale Conosco
                       e saiba mais.
                     </p>
-                    <Link to="/servicos/3" className="btn">
+                    <Link reloadDocument={true} to="/servicos/3" className="btn">
                       Saiba mais
                     </Link>
                   </div>
@@ -149,7 +145,9 @@ const Home = () => {
                   conversar sobre como promover mudanças positivas nela. Será um
                   prazer atender você.
                 </p>
-                <button className="btn">Fale conosco</button>
+                <Link reloadDocument={true} to="/certidoes">
+                  <button className="btn">Certidões &#62;</button>
+                </Link>
               </div>
               <img src={imagem} alt="" className="col-lg-6" />
             </div>

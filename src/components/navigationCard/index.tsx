@@ -10,17 +10,17 @@ const NavigationCard = () => {
       </div>
       <ul className="list-group list-group-flush">
         <li className="list-group-item">
-          <Link to="/" className="nav-link">
+          <Link reloadDocument={true} to="/" className="nav-link">
             Inicio
           </Link>
         </li>
         <li className="list-group-item">
-          <Link to="/contatos" className="nav-link">
+          <Link reloadDocument={true} to="/contatos" className="nav-link">
             Contato
           </Link>
         </li>
         <li className="list-group-item">
-          <Link to="/links-uteis" className="nav-link">
+          <Link reloadDocument={true} to="/links-uteis" className="nav-link">
             Links Úteis
           </Link>
         </li>

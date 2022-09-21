@@ -8,7 +8,7 @@ const Servico2 = () => {
   return (
     <div className="container">
       <div className="navigation-items">
-        <Link to="/" className="nav-link">
+        <Link reloadDocument={true} to="/" className="nav-link">
           Início&nbsp;
         </Link>
         <p>&#62; Servicos&nbsp;</p>

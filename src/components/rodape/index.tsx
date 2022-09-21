@@ -7,9 +7,13 @@ const Footer = () => {
     <footer className="container-fluid bg-black" id="footer">
       <div className="container">
         <div className="row">
-          <div className="col-lg-3 align-self-center">
-            <img src={imagem} alt="" className="col-lg-12" />
-          </div>
+          
+            <div className="col-lg-3 align-self-center">
+            <Link to="/" reloadDocument={true}>
+              <img src={imagem} alt="" className="col-lg-12" />
+              </Link>
+            </div>
+          
           <div className="col-lg-3">
             <h6 className="tittle-footer">Redes Sociais:</h6>
             <ul className="list-group list-group-flush">
@@ -43,7 +47,7 @@ const Footer = () => {
                   />
                 </svg>
 
-                <a href="" className="nav-link text-white">
+                <a href="https://instagram.com" className="nav-link text-white">
                   Instagram
                 </a>
               </li>
@@ -75,27 +79,47 @@ const Footer = () => {
             <h6 className="tittle-footer">Serviços:</h6>
             <ul className="list-group list-group-flush flex-column">
               <li className="list-group-item bg-black">
-                <Link to="/servicos/1" className="nav-link text-white">
+                <Link
+                  reloadDocument={true}
+                  to="/servicos/1"
+                  className="nav-link text-white"
+                >
                   Acessoria em RH
                 </Link>
               </li>
               <li className="list-group-item bg-black">
-                <Link to="/servicos/2" className="nav-link text-white">
+                <Link
+                  reloadDocument={true}
+                  to="/servicos/2"
+                  className="nav-link text-white"
+                >
                   Acessoria em COntrole interno
                 </Link>
               </li>
               <li className="list-group-item bg-black">
-                <Link to="/servicos/3" className="nav-link text-white">
+                <Link
+                  reloadDocument={true}
+                  to="/servicos/3"
+                  className="nav-link text-white"
+                >
                   Digitalização de documentos
                 </Link>
               </li>
               <li className="list-group-item bg-black">
-                <Link to="/servicos/4" className="nav-link text-white">
+                <Link
+                  reloadDocument={true}
+                  to="/servicos/4"
+                  className="nav-link text-white"
+                >
                   Consultoria em publicidade
                 </Link>
               </li>
               <li className="list-group-item bg-black">
-                <Link to="/servicos/5" className="nav-link text-white">
+                <Link
+                  reloadDocument={true}
+                  to="/servicos/5"
+                  className="nav-link text-white"
+                >
                   Recarga de cartuchos em equipamentos de informática
                 </Link>
               </li>
