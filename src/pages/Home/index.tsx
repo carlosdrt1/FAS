@@ -37,10 +37,16 @@ const Home = () => {
                   <div className="card-body text-center">
                     <h4 className="card-tittle">Assessoria em RH</h4>
                     <p>
-                      Dentre as distintas formas de Assessoria empresarial,
-                      oferecemos soluções técnicas para os nossos clientes.
+                      A Assessoria e Consultoria em Recursos Humanos auxilia na
+                      construção de um melhor relacionamento entre colaboradores
+                      e gestores, além da implementação de mudanças alinhadas à
+                      estratégia do negócio.
                     </p>
-                    <Link reloadDocument={true} to="/servicos/1" className="btn">
+                    <Link
+                      reloadDocument={true}
+                      to="/servicos/1"
+                      className="btn"
+                    >
                       Saiba mais
                     </Link>
                   </div>
@@ -52,11 +58,15 @@ const Home = () => {
                   <div className="card-body text-center">
                     <h4 className="card-tittle">Digitalização de documentos</h4>
                     <p>
-                      Certificado digital é uma identidade virtual da pessoa ou
-                      da empresa e funciona como uma assinatura digital com
-                      validade (...)
+                      A digitalização de documentos transforma documentos
+                      físicos em arquivos digitais, para serem gerenciados em
+                      ambiente virtual.
                     </p>
-                    <Link reloadDocument={true} to="/servicos/2" className="btn">
+                    <Link
+                      reloadDocument={true}
+                      to="/servicos/3"
+                      className="btn"
+                    >
                       Saiba mais
                     </Link>
                   </div>
@@ -68,11 +78,15 @@ const Home = () => {
                   <div className="card-body text-center">
                     <h4 className="card-tittle">Consultoria em publicidade</h4>
                     <p>
-                      Atendemos as necessidades das organizações, nas de
-                      escrituração contábil, fiscal e trabalhista. Fale Conosco
-                      e saiba mais.
+                      A consultoria para agências de publicidade é um trabalho
+                      que tem apontado direcionamentos eficientes em comunicação
+                      e gestão
                     </p>
-                    <Link reloadDocument={true} to="/servicos/3" className="btn">
+                    <Link
+                      reloadDocument={true}
+                      to="/servicos/4"
+                      className="btn"
+                    >
                       Saiba mais
                     </Link>
                   </div>
@@ -86,11 +100,16 @@ const Home = () => {
                       Assessoria em controle interno
                     </h4>
                     <p>
-                      Atendemos as necessidades das organizações, nas de
-                      escrituração contábil, fiscal e trabalhista. Fale Conosco
-                      e saiba mais.
+                      Tem como finalidade atuar nas áreas de controle, risco,
+                      transparência e integridade da gestão, como também de
+                      auxiliar na interlocução sobre assuntos relacionados a
+                      ética, ouvidoria e correição
                     </p>
-                    <Link reloadDocument={true} to="/servicos/3" className="btn">
+                    <Link
+                      reloadDocument={true}
+                      to="/servicos/2"
+                      className="btn"
+                    >
                       Saiba mais
                     </Link>
                   </div>
@@ -104,11 +123,13 @@ const Home = () => {
                       Recarga de cartuchos em equipamentos de informática
                     </h4>
                     <p>
-                      Atendemos as necessidades das organizações, nas de
-                      escrituração contábil, fiscal e trabalhista. Fale Conosco
-                      e saiba mais.
+                      Recarregamento de equipamentos como os cartuchos de impressora e dentre outros 
                     </p>
-                    <Link reloadDocument={true} to="/servicos/3" className="btn">
+                    <Link
+                      reloadDocument={true}
+                      to="/servicos/5"
+                      className="btn"
+                    >
                       Saiba mais
                     </Link>
                   </div>
@@ -118,13 +139,16 @@ const Home = () => {
                 <div className="card position-static bg-light shadow">
                   <img src={card6} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">Agencias em publicidade</h4>
+                    <h4 className="card-tittle">Agencias de publicidade</h4>
                     <p>
-                      Atendemos as necessidades das organizações, nas de
-                      escrituração contábil, fiscal e trabalhista. Fale Conosco
-                      e saiba mais.
+                      planejar, criar, executar e divulgar campanhas de propaganda e
+                      marketing.
                     </p>
-                    <Link reloadDocument={true} to="/servicos/3" className="btn">
+                    <Link
+                      reloadDocument={true}
+                      to="/servicos/4"
+                      className="btn"
+                    >
                       Saiba mais
                     </Link>
                   </div>
