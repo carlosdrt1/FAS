@@ -17,7 +17,7 @@ const Servico3 = () => {
 
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle tittle-servicos">
+          <h1 className="tittle">
             Digitalização de documentos
           </h1>
           <p>

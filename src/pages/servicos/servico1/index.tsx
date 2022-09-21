@@ -12,12 +12,12 @@ const Servico1 = () => {
           Início&nbsp;
         </Link>
         <p>&#62; Servicos&nbsp;</p>
-        <p>&#62; Acessoria em RH</p>
+        <p>&#62; Assessoria em RH</p>
       </div>
 
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle tittle-servicos">Acessoria em RH</h1>
+          <h1 className="tittle">Assessoria em RH</h1>
           <p>
             Lorem ipsum dolor sit amet. Ea voluptas repudiandae{" "}
             <em>Ut modi qui vero nihil a distinctio sapiente</em> non odit

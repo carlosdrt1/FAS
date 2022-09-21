@@ -17,7 +17,7 @@ const Servico5 = () => {
 
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle tittle-servicos">
+          <h1 className="tittle">
             Recarga de cartuchos em equipamentos
           </h1>
           <p>

@@ -84,7 +84,7 @@ const Footer = () => {
                   to="/servicos/1"
                   className="nav-link text-white"
                 >
-                  Acessoria em RH
+                  Assessoria em RH
                 </Link>
               </li>
               <li className="list-group-item bg-black">
@@ -93,7 +93,7 @@ const Footer = () => {
                   to="/servicos/2"
                   className="nav-link text-white"
                 >
-                  Acessoria em COntrole interno
+                  Assessoria em Controle interno
                 </Link>
               </li>
               <li className="list-group-item bg-black">

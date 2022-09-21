@@ -17,7 +17,7 @@ const Servico4 = () => {
 
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle tittle-servicos">Consultoria em publicidade</h1>
+          <h1 className="tittle">Consultoria em publicidade</h1>
           <p>
             Lorem ipsum dolor sit amet. Ex autem quia qui voluptates consequatur
             voluptatem repudiandae? Et excepturi sunt rem sunt quia qui veniam

@@ -1,3 +1,17 @@
 .certidoes-container iframe{
     margin-bottom: 50px;
 }
+
+.navigation-certidoes{
+    display: none;
+}
+
+.text-certidoes{
+    margin-bottom: 25px;
+}
+
+@media (min-width:992px) {
+    .navigation-certidoes{
+        display: block;
+    }
+}

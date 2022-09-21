@@ -35,9 +35,9 @@ const Home = () => {
                 <div className="card position-static bg-light shadow">
                   <img src={card1} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">Acessoria em RH</h4>
+                    <h4 className="card-tittle">Assessoria em RH</h4>
                     <p>
-                      Dentre as distintas formas de assessoria empresarial,
+                      Dentre as distintas formas de Assessoria empresarial,
                       oferecemos soluções técnicas para os nossos clientes.
                     </p>
                     <Link reloadDocument={true} to="/servicos/1" className="btn">
@@ -83,7 +83,7 @@ const Home = () => {
                   <img src={card4} alt="" className="card-img-top" />
                   <div className="card-body text-center">
                     <h4 className="card-tittle">
-                      Acessoria em controle interno
+                      Assessoria em controle interno
                     </h4>
                     <p>
                       Atendemos as necessidades das organizações, nas de

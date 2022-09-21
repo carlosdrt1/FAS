@@ -14,7 +14,7 @@ const Certidoes = () => {
       </div>
       <h1 className="tittle">Certidões</h1>
       <div className="row">
-        <div className="col-lg-9">
+        <div className="col-lg-9 text-certidoes">
           <p>
             Lorem ipsum dolor sit amet. Qui libero repellat id deserunt quia At
             internos sint rem iste quisquam non sequi nesciunt qui vitae ducimus
@@ -54,13 +54,14 @@ const Certidoes = () => {
             suscipit reiciendis.{" "}
           </p>
         </div>
-        <div className="col-lg-3">
-        <div>
+        <div className="col-lg-3 navigation-certidoes">
+          <div>
             <CardsSociais />
           </div>
           <div>
             <NavigationCard />
-          </div></div>
+          </div>
+        </div>
       </div>
       <div className="row certidoes-container">
         <div className="col-lg-4 col-md-6">

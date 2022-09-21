@@ -47,7 +47,7 @@ const NavBar = () => {
               <ul className="dropdown-menu">
                 <li>
                   <Link reloadDocument={true} to="/servicos/1" className="dropdown-item">
-                    Acessoria em RH
+                    Assessoria em RH
                   </Link>
                 </li>
                 <li>
@@ -55,7 +55,7 @@ const NavBar = () => {
                 </li>
                 <li>
                   <Link reloadDocument={true} to="/servicos/2" className="dropdown-item">
-                    Acessoria em controle interno
+                    Assessoria em controle interno
                   </Link>
                 </li>
                 <li>
