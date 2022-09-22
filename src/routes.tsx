@@ -17,14 +17,14 @@ const BRoutes = () => {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/sobre-nos" element={<SobreNos />} />
-        <Route path="/contato" element={<Contato/>}/>
-        <Route path="/certidoes" element={<Certidoes/>} />
-        <Route path="/servicos/assessoria-rh" element={<Servico1/>} />
-        <Route path="/servicos/assessoria-controle" element={<Servico2/>} />
-        <Route path="/servicos/digitalizacao" element={<Servico3/>} />
-        <Route path="/servicos/consultoria-publicidade" element={<Servico4/>} />
-        <Route path="/servicos/recarga-cartuchos" element={<Servico5/>} />
+        <Route path="https://fasacessoria.netlify.app/sobre-nos" element={<SobreNos />} />
+        <Route path="https://fasacessoria.netlify.app/contato" element={<Contato/>}/>
+        <Route path="https://fasacessoria.netlify.app/certidoes" element={<Certidoes/>} />
+        <Route path="https://fasacessoria.netlify.app/servicos/assessoria-rh" element={<Servico1/>} />
+        <Route path="https://fasacessoria.netlify.app/servicos/assessoria-controle" element={<Servico2/>} />
+        <Route path="https://fasacessoria.netlify.app/servicos/digitalizacao" element={<Servico3/>} />
+        <Route path="https://fasacessoria.netlify.app/servicos/consultoria-publicidade" element={<Servico4/>} />
+        <Route path="https://fasacessoria.netlify.app/servicos/recarga-cartuchos" element={<Servico5/>} />
       </Routes>
       <Footer/>
     </>
