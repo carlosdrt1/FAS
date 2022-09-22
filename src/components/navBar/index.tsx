@@ -46,7 +46,7 @@ const NavBar = () => {
               </button>
               <ul className="dropdown-menu">
                 <li>
-                  <Link reloadDocument={true} to="/servicos/1" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/assessoria-rh" className="dropdown-item">
                     Assessoria em RH
                   </Link>
                 </li>
@@ -54,7 +54,7 @@ const NavBar = () => {
                   <div className="dropdown-divider"></div>
                 </li>
                 <li>
-                  <Link reloadDocument={true} to="/servicos/2" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/assessoria-controle" className="dropdown-item">
                     Assessoria em controle interno
                   </Link>
                 </li>
@@ -62,19 +62,19 @@ const NavBar = () => {
                   <div className="dropdown-divider"></div>
                 </li>
                 <li>
-                  <Link reloadDocument={true} to="/servicos/3" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/digitalizacao" className="dropdown-item">
                     Digitalização de documentos
                   </Link>
                 </li>
                 <div className="dropdown-divider"></div>
                 <li>
-                  <Link reloadDocument={true} to="/servicos/4" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/consultoria-publicidade" className="dropdown-item">
                     Consultoria em publicidade
                   </Link>
                 </li>
                 <div className="dropdown-divider"></div>
                 <li>
-                  <Link reloadDocument={true} to="/servicos/5" className="dropdown-item">
+                  <Link reloadDocument={true} to="/servicos/recarga-cartuchos" className="dropdown-item">
                     Recarga de cartuchos em equipamentos
                   </Link>
                 </li>

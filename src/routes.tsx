@@ -20,11 +20,11 @@ const BRoutes = () => {
         <Route path="/sobre-nos" element={<SobreNos />} />
         <Route path="/contato" element={<Contato/>}/>
         <Route path="/certidoes" element={<Certidoes/>} />
-        <Route path="/servicos/1" element={<Servico1/>} />
-        <Route path="/servicos/2" element={<Servico2/>} />
-        <Route path="/servicos/3" element={<Servico3/>} />
-        <Route path="/servicos/4" element={<Servico4/>} />
-        <Route path="/servicos/5" element={<Servico5/>} />
+        <Route path="/servicos/assessoria-rh" element={<Servico1/>} />
+        <Route path="/servicos/assessoria-controle" element={<Servico2/>} />
+        <Route path="/servicos/digitalizacao" element={<Servico3/>} />
+        <Route path="/servicos/consultoria-publicidade" element={<Servico4/>} />
+        <Route path="/servicos/recarga-cartuchos" element={<Servico5/>} />
       </Routes>
       <Footer/>
     </>

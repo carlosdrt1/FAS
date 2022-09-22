@@ -19,8 +19,8 @@ const NavigationCard = () => {
           </Link>
         </li>
         <li className="list-group-item">
-          <Link reloadDocument={true} to="/links-uteis" className="nav-link">
-            Links Úteis
+          <Link reloadDocument={true} to="/contato" className="nav-link">
+            Contato
           </Link>
         </li>
       </ul>

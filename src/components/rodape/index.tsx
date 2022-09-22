@@ -81,7 +81,7 @@ const Footer = () => {
               <li className="list-group-item bg-black">
                 <Link
                   reloadDocument={true}
-                  to="/servicos/1"
+                  to="/servicos/assessoria-rh"
                   className="nav-link text-white"
                 >
                   Assessoria em RH
@@ -90,7 +90,7 @@ const Footer = () => {
               <li className="list-group-item bg-black">
                 <Link
                   reloadDocument={true}
-                  to="/servicos/2"
+                  to="/servicos/assessoria-controle"
                   className="nav-link text-white"
                 >
                   Assessoria em Controle interno
@@ -99,7 +99,7 @@ const Footer = () => {
               <li className="list-group-item bg-black">
                 <Link
                   reloadDocument={true}
-                  to="/servicos/3"
+                  to="/servicos/digitalizacao"
                   className="nav-link text-white"
                 >
                   Digitalização de documentos
@@ -108,7 +108,7 @@ const Footer = () => {
               <li className="list-group-item bg-black">
                 <Link
                   reloadDocument={true}
-                  to="/servicos/4"
+                  to="/servicos/consultoria-publicidade"
                   className="nav-link text-white"
                 >
                   Consultoria em publicidade
@@ -117,7 +117,7 @@ const Footer = () => {
               <li className="list-group-item bg-black">
                 <Link
                   reloadDocument={true}
-                  to="/servicos/5"
+                  to="/servicos/recarga-cartuchos"
                   className="nav-link text-white"
                 >
                   Recarga de cartuchos em equipamentos de informática

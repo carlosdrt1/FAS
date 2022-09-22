@@ -48,7 +48,7 @@ const Home = () => {
                     </p>
                     <Link
                       reloadDocument={true}
-                      to="/servicos/1"
+                      to="/servicos/assessoria-rh"
                       className="btn"
                     >
                       Saiba mais
@@ -71,7 +71,7 @@ const Home = () => {
                     </p>
                     <Link
                       reloadDocument={true}
-                      to="/servicos/3"
+                      to="/servicos/digitalizacao"
                       className="btn"
                     >
                       Saiba mais
@@ -94,7 +94,7 @@ const Home = () => {
                     </p>
                     <Link
                       reloadDocument={true}
-                      to="/servicos/4"
+                      to="/servicos/consultoria-publicidade"
                       className="btn"
                     >
                       Saiba mais
@@ -120,7 +120,7 @@ const Home = () => {
                     </p>
                     <Link
                       reloadDocument={true}
-                      to="/servicos/2"
+                      to="/servicos/assessoria-controle"
                       className="btn"
                     >
                       Saiba mais
@@ -144,7 +144,7 @@ const Home = () => {
                     </p>
                     <Link
                       reloadDocument={true}
-                      to="/servicos/5"
+                      to="/servicos/recarga-cartuchos"
                       className="btn"
                     >
                       Saiba mais
@@ -166,7 +166,7 @@ const Home = () => {
                     </p>
                     <Link
                       reloadDocument={true}
-                      to="/servicos/4"
+                      to="/servicos/consultoria-publicidade"
                       className="btn"
                     >
                       Saiba mais

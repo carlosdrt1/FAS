@@ -28,7 +28,6 @@ const Contato = () => {
           </div>
         </div>
       </div>
-      <WhatsButton />
     </div>
   );
 };
