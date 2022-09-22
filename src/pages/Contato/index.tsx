@@ -1,8 +1,7 @@
 import { Link } from "react-router-dom";
 import CardsSociais from "../../components/cardsCompartilhe";
 import Form from "../../components/Form";
-import NavigationCard from "../../components/navigationCard";
-import WhatsButton from "../../components/whatsButton";
+import NavigationCard from "../../components/navigationCard"; 
 import "./styles.css";
 
 const Contato = () => {
