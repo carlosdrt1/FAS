@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import CardsSociais from "../../../components/cardsCompartilhe";
 import NavigationCard from "../../../components/navigationCard";
-import "./styles.css";
 import FaleConosco from "../../../components/faleConosco";
 
 const Servico3 = () => {

@@ -161,7 +161,7 @@ const Home = () => {
                   <div className="card-body text-center">
                     <h5 className="card-tittle">Agencias de publicidade</h5>
                     <p>
-                      planejar, criar, executar e divulgar campanhas de
+                      Planejar, criar, executar e divulgar campanhas de
                       propaganda e marketing.
                     </p>
                     <Link
@@ -182,10 +182,11 @@ const Home = () => {
             <div className="row d-flex">
               <div className="col-lg-6 text-white fale-conosco-text align-self-center">
                 <h5>
-                  Precisando de alguma emitir alguma certidão negativa de
+                  Precisando emitir alguma certidão negativa de
                   débitos?
                 </h5>
-                <p>Clique no botão abaixo e procure a de sua escolha</p>
+                <p>Conheça nossas certidões que oferecemos.<br/>
+                 Clique no botão abaixo e procure a de sua escolha dentre as quais ofertamos.</p>
                 <Link reloadDocument={true} to="/certidoes">
                   <button className="btn">Certidões &#62;</button>
                 </Link>

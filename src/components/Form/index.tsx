@@ -42,6 +42,7 @@ const Form = () => {
               id="telefone"
               placeholder="(xx)xxxxxxxx"
               required
+              maxLength={13}
             />
           </div>
           <div className="mb-3 col-lg-6">
@@ -70,7 +71,7 @@ const Form = () => {
             ></textarea>
           </div>
           <div>
-            <button type="submit" className="btn-form col-2">
+            <button type="submit" className="btn-form">
               Enviar
             </button>
           </div>

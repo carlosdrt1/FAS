@@ -10,9 +10,10 @@
 }
 
 .btn-form {
-  border: solid 1px #e2ca1a !important;
+  border: solid 2px #e2ca1a !important;
   border-radius: 7px;
   height: 40px;
+  width: 140px;
 }
 
 .btn-form:hover{

@@ -43,6 +43,10 @@
     padding-bottom: 3px;
 }
 
+.whats-btn{
+    margin-left: 8px;
+}
+
 .btn:hover, .btn:hover .whats{
     color: #E2CA1A !important;
 }
