@@ -17,57 +17,40 @@ const Servico2 = () => {
 
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle">
-            Assessoria em controle interno
-          </h1>
+          <h1 className="tittle">Assessoria em controle interno</h1>
           <p>
-            Lorem ipsum dolor sit amet. In iusto aut debitis assumenda ab
-            dolorem maxime? Ut galisum tempora non iure sequi rem voluptate
-            dolorem et harum soluta et numquam beatae.{" "}
-          </p>
-          <ol>
-            <li>
-              Quo atque quod rem quidem laboriosam ut dolor quos est explicabo
-              aspernatur.{" "}
-            </li>
-            <li>
-              Qui esse quia ut optio nobis in velit provident ab cumque
-              molestiae.{" "}
-            </li>
-            <li>
-              Nam veniam atque et atque veritatis non laudantium voluptatum.{" "}
-            </li>
-          </ol>
-          <p>
-            Ab provident molestias non quia consequatur aut facere voluptatem et
-            debitis officiis At quae soluta. Qui quia provident{" "}
-            <em>Ea voluptatibus hic enim voluptas et consequatur omnis</em> et
-            dolorum nulla hic odit delectus et explicabo impedit? Ea laudantium
-            amet non vitae laudantium id accusantium nihil. Ut ipsum odio vel
-            mollitia perferendis At totam omnis qui blanditiis saepe 33
-            voluptatem assumenda hic laborum dolores.{" "}
+            A assessoria em controle interno tem um importante papel, por
+            resguardar a entidade pública por meio de orientações preventivas
+            nas áreas contábil, financeira, econômica e patrimonial e
+            administrativa, sempre com vistas a atender os princípios
+            norteadores da Administração pública, preservar recursos e proteger
+            os bens patrimoniais.
           </p>
           <p>
-            Qui pariatur saepe ut cupiditate expedita ut sint dolor ut doloribus
-            doloremque aut corrupti dolorem et harum voluptate. Aut porro
-            voluptas <em>Aut odio cum aliquid magnam</em>. Est deleniti itaque
-            nam itaque reprehenderit sed eaque deleniti in quia natus ea magnam
-            voluptatem. Et asperiores nihil ex quidem soluta et delectus placeat
-            At magnam vero qui amet voluptatem cum Quis minus.{" "}
+            Os controles internos ajudam a prevenir erros e irregularidades, por
+            isto, um planejamento organizacional de todos os métodos e
+            procedimentos adotados dentro de uma empresa devem ser elaborados,
+            com a finalidade de identificar quais controles internos são mais
+            apropriados para cada empresa
           </p>
-          <dl>
-            <dt>
-              <dfn>Aut dicta ipsam qui facere ullam. </dfn>
-            </dt>
-            <dd>
-              Aut nemo doloribus non provident reiciendis et animi veniam ut
-              quos accusantium.{" "}
-            </dd>
-            <dt>
-              <dfn>Eum nihil sint ex ducimus facilis. </dfn>
-            </dt>
-            <dd>Aut dolore obcaecati qui ipsa sapiente. </dd>
-          </dl>
+          <h6>Importancia:</h6>
+          <ul>
+            <li>Salvaguardar o ativo;</li>
+            <li>Desenvolvimento do negócio;</li>
+            <li>Resultado das operações.</li>
+          </ul>
+          <h6>Objetivos:</h6>
+          <ul>
+            <li>Cumprir com seu objetivo social</li>
+            <li>atender às necessidades e expectativas de seus clientes;</li>
+            <li>
+              proporcionar um ambiente rico e saudável para as pessoas que ali
+              trabalhem.
+            </li>
+          </ul>
+          <div>
+            <FaleConosco />
+          </div>
         </div>
         <div className="col-lg-3 d-flex flex-column justify-content-around">
           <div>
@@ -76,9 +59,6 @@ const Servico2 = () => {
           <div>
             <NavigationCard />
           </div>
-        </div>
-        <div>
-          <FaleConosco />
         </div>
       </div>
     </div>

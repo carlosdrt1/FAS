@@ -17,38 +17,31 @@ const Servico5 = () => {
 
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle">
-            Recarga de cartuchos em equipamentos
-          </h1>
+          <h1 className="tittle">Recarga de cartuchos em equipamentos</h1>
           <p>
-            Lorem ipsum dolor sit amet. Aut consequatur consectetur sed nemo
-            dolorem vel galisum obcaecati! Hic quam doloremque vel totam ipsum
-            quo neque ipsa. Est earum placeat cum placeat numquam est tempore
-            quos et nihil quam ab maiores harum nam perferendis voluptate.{" "}
+            As impressoras a jato de tinta, atualmente, são as mais vendidas.
+            Grandes empresas as vendem a baixos custos e depois exigem valores,
+            geralmente, abusivos, sobre acessórios e principalmente cartuchos
+            novos.
           </p>
           <p>
-            Qui voluptatem doloremque sit asperiores velit et quas eligendi et
-            beatae quod ut nisi explicabo et explicabo porro. Et excepturi
-            expedita et expedita ipsam ut dolorem consequatur.{" "}
+            O recondicionamento de cartuchos de tinta consiste, basicamente, em
+            reaproveitar cartuchos originais, enchendo-os novamente com tinta, o
+            que tem sido amplamente valorizado pelo mercado da informática. Isso
+            ocorre, dentre outros motivos, por possibilitar a obtenção de um
+            cartucho a baixo custo, se comparado com os novos.
           </p>
+          <h6>Importancia de recarregar:</h6>
           <p>
-            Sed nulla aspernatur eum dignissimos velit qui dolorum quas ut
-            facere animi. Et tempora sunt est fugiat necessitatibus sit
-            molestiae ipsa in aliquid eligendi et dolor omnis. Et molestiae
-            galisum qui deserunt quam est quia reiciendis.{" "}
+            A principal vantagem de utilizar cartuchos reciclados é uma economia
+            em torno de 50% em relação aos originais. Reciclando cartuchos, o
+            consumidor ainda colabora com o meio ambiente, tendo em vista que os
+            componentes plásticos constituintes dos cartuchos demoram cerca de
+            200 anos para se degradar.
           </p>
-          <ul>
-            <li>
-              In dolores dolores voluptates quis non perferendis fuga ea
-              nesciunt deserunt!{" "}
-            </li>
-            <li>Est quia rerum ea eaque galisum ut itaque voluptatem. </li>
-            <li>
-              Ut assumenda autem hic amet voluptatem est earum magnam hic quos
-              galisum.{" "}
-            </li>
-            <li>Rem quod dignissimos non adipisci laudantium. </li>
-          </ul>
+          <div>
+            <FaleConosco />
+          </div>
         </div>
         <div className="col-lg-3 d-flex flex-column justify-content-around">
           <div>
@@ -57,9 +50,6 @@ const Servico5 = () => {
           <div>
             <NavigationCard />
           </div>
-        </div>
-        <div>
-          <FaleConosco />
         </div>
       </div>
     </div>

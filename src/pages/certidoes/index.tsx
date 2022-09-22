@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import CardsSociais from "../../components/cardsCompartilhe";
+import FaleConosco from "../../components/faleConosco";
 import NavigationCard from "../../components/navigationCard";
 import "./styles.css";
 
@@ -31,11 +32,9 @@ const Certidoes = () => {
             <li>FGTS</li>
             <li>Falencia Concordata</li>
           </ul>
-          <a href="https://wa.me/5588996499995" target="_blank" rel="noopener noreferrer">
-            <button className="btn">Contate-nos</button>
-            </a>
+          <FaleConosco/>
         </div>
-        <div className="col-lg-3 navigation-certidoes">
+        <div className="col-lg-3 col-md-6 navigation-certidoes">
           <div>
             <CardsSociais />
           </div>

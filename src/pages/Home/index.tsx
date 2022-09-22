@@ -32,10 +32,10 @@ const Home = () => {
           <div className="container card-container">
             <div className="row">
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow">
+                <div className="card position-static bg-light shadow" id="card-home">
                   <img src={card1} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">Assessoria em RH</h4>
+                    <h5 className="card-tittle">Assessoria em RH</h5>
                     <p>
                       A Assessoria e Consultoria em Recursos Humanos auxilia na
                       construção de um melhor relacionamento entre colaboradores
@@ -53,10 +53,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow">
+                <div className="card position-static bg-light shadow" id="card-home">
                   <img src={card2} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">Digitalização de documentos</h4>
+                    <h5 className="card-tittle">Digitalização de documentos</h5>
                     <p>
                       A digitalização de documentos transforma documentos
                       físicos em arquivos digitais, para serem gerenciados em
@@ -73,14 +73,14 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow">
+                <div className="card position-static bg-light shadow" id="card-home">
                   <img src={card3} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">Consultoria em publicidade</h4>
+                    <h5 className="card-tittle">Consultoria em publicidade</h5>
                     <p>
                       A consultoria para agências de publicidade é um trabalho
                       que tem apontado direcionamentos eficientes em comunicação
-                      e gestão
+                      e gestão.
                     </p>
                     <Link
                       reloadDocument={true}
@@ -93,17 +93,17 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow">
+                <div className="card position-static bg-light shadow" id="card-home">
                   <img src={card4} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">
+                    <h5 className="card-tittle">
                       Assessoria em controle interno
-                    </h4>
+                    </h5>
                     <p>
                       Tem como finalidade atuar nas áreas de controle, risco,
                       transparência e integridade da gestão, como também de
                       auxiliar na interlocução sobre assuntos relacionados a
-                      ética, ouvidoria e correição
+                      ética, ouvidoria e correição.
                     </p>
                     <Link
                       reloadDocument={true}
@@ -116,14 +116,14 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow">
+                <div className="card position-static bg-light shadow" id="card-home">
                   <img src={card5} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">
+                    <h5 className="card-tittle">
                       Recarga de cartuchos em equipamentos de informática
-                    </h4>
+                    </h5>
                     <p>
-                      Recarregamento de equipamentos como os cartuchos de impressora e dentre outros 
+                      Recarregamento de equipamentos como os cartuchos de impressora e dentre outros.
                     </p>
                     <Link
                       reloadDocument={true}
@@ -136,10 +136,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow">
+                <div className="card position-static bg-light shadow" id="card-home">
                   <img src={card6} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h4 className="card-tittle">Agencias de publicidade</h4>
+                    <h5 className="card-tittle">Agencias de publicidade</h5>
                     <p>
                       planejar, criar, executar e divulgar campanhas de propaganda e
                       marketing.
@@ -161,13 +161,11 @@ const Home = () => {
           <div className="container">
             <div className="row d-flex">
               <div className="col-lg-6 text-white fale-conosco-text align-self-center">
-                <h4>
-                  O mundo está mais dinâmico, e sua contabilidade, também?
-                </h4>
+                <h5>
+                  Precisando de alguma emitir alguma certidão negativa de débitos?
+                </h5>
                 <p>
-                  Todas as decisões influenciam nos lucros da sua empresa. Vamos
-                  conversar sobre como promover mudanças positivas nela. Será um
-                  prazer atender você.
+                  Clique no botão abaixo e procure a de sua escolha
                 </p>
                 <Link reloadDocument={true} to="/certidoes">
                   <button className="btn">Certidões &#62;</button>

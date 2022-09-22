@@ -3,7 +3,7 @@ import "./styles.css";
 
 const NavigationCard = () => {
   return (
-    <div className="card text-center bg-light border-secondary">
+    <div className="card text-center bg-light border-secondary" id="navigation">
       <div className="card-body">
         <h5 className="card-tittle">Navegação</h5>
         <p className="card-text">Continue navegando</p>
@@ -15,8 +15,8 @@ const NavigationCard = () => {
           </Link>
         </li>
         <li className="list-group-item">
-          <Link reloadDocument={true} to="/contatos" className="nav-link">
-            Contato
+          <Link reloadDocument={true} to="/certidoes" className="nav-link">
+            Certidões
           </Link>
         </li>
         <li className="list-group-item">

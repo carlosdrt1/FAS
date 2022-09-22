@@ -100,7 +100,7 @@ const LinksUteis = () => {
             </li>
           </ul>
         </div>
-        <div className="col-lg-3 container">
+        <div className="col-lg-3">
           <div>
             <CardsSociais />
           </div>

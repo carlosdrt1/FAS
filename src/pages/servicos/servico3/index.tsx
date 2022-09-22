@@ -17,44 +17,31 @@ const Servico3 = () => {
 
       <div className="row">
         <div className="col-lg-9">
-          <h1 className="tittle">
-            Digitalização de documentos
-          </h1>
+          <h1 className="tittle">Digitalização de documentos</h1>
           <p>
-            Lorem ipsum dolor sit amet. Et nesciunt illo At aperiam esse{" "}
-            <em>At tenetur id veritatis quam</em>? Et consequatur commodi ut
-            magni perferendis non rerum excepturi ut earum eaque est commodi
-            velit ut impedit veritatis ut quia quia.{" "}
+            A digitalização de documentos pressupõe transformar documentos
+            físicos em arquivos digitais, para serem gerenciados em ambiente
+            virtual.
           </p>
           <p>
-            Est cumque dicta{" "}
-            <em>
-              Qui iste et iure quia sed doloribus molestiae aut enim debitis
-            </em>
-            . In magnam quas odit error aut sequi veritatis sit voluptates rerum
-            quo eveniet voluptatibus in enim architecto eos placeat possimus.{" "}
+            O documento é posto no scanner e após o processo o documento fica
+            disponível na nuvem, de maneira que apenas o dono do documento e
+            pessoas que ele permitir podem acessa-lo ou edita-lo. Além da
+            redução de custo com armazenamento, papel e etc.
           </p>
-          <p>
-            Sed voluptatem pariatur est beatae soluta{" "}
-            <strong>
-              Ex voluptatem et molestiae aliquam qui ipsum deserunt qui aliquid
-              nemo
-            </strong>
-            . A laborum ut praesentium quisquam{" "}
-            <em>
-              Est incidunt ut aliquam nemo et tempore nulla ea quisquam alias
-            </em>
-            . Et consequatur temporibus et architecto esse ut voluptatem tempora
-            aut doloribus accusantium ut molestiae enim aut perferendis neque
-            qui repudiandae tempora. Sed perspiciatis quam non nostrum dolorem
-            cum voluptatibus porro et velit accusamus aut recusandae sunt ab
-            soluta dolorem.{" "}
-          </p>
+          <h6>Vantagens:</h6>
           <ul>
-            <li>Rem voluptatum porro non adipisci doloribus. </li>
-            <li>Quo odio possimus et blanditiis dolorum. </li>
-            <li>Sit nemo itaque non corporis placeat et omnis impedit. </li>
+            <li>Acesso facilitado a qualquer momento</li>
+            <li>É possível editar online</li>
+            <li>Menores chances de perder os documentos.</li>
+            <li>Perceptível redução de custos</li>
+            <li>Sua empresa focada na sustentabilidade</li>
+            <li>Você controla quem pode acessar as informações</li>
+            <li>Você economiza espaço</li>
           </ul>
+          <div>
+            <FaleConosco />
+          </div>
         </div>
         <div className="col-lg-3 d-flex flex-column justify-content-around">
           <div>
@@ -63,9 +50,6 @@ const Servico3 = () => {
           <div>
             <NavigationCard />
           </div>
-        </div>
-        <div>
-          <FaleConosco />
         </div>
       </div>
     </div>
