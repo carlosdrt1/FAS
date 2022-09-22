@@ -8,6 +8,7 @@ import card5 from "../../assets/images/card5.svg";
 import card6 from "../../assets/images/card6.svg";
 import imagem from "../../assets/images/faleConosco.svg";
 import { Link } from "react-router-dom";
+import Form from "../../components/Form";
 
 const Home = () => {
   return (
@@ -32,7 +33,10 @@ const Home = () => {
           <div className="container card-container">
             <div className="row">
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow" id="card-home">
+                <div
+                  className="card position-static bg-light shadow"
+                  id="card-home"
+                >
                   <img src={card1} alt="" className="card-img-top" />
                   <div className="card-body text-center">
                     <h5 className="card-tittle">Assessoria em RH</h5>
@@ -53,7 +57,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow" id="card-home">
+                <div
+                  className="card position-static bg-light shadow"
+                  id="card-home"
+                >
                   <img src={card2} alt="" className="card-img-top" />
                   <div className="card-body text-center">
                     <h5 className="card-tittle">Digitalização de documentos</h5>
@@ -73,7 +80,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow" id="card-home">
+                <div
+                  className="card position-static bg-light shadow"
+                  id="card-home"
+                >
                   <img src={card3} alt="" className="card-img-top" />
                   <div className="card-body text-center">
                     <h5 className="card-tittle">Consultoria em publicidade</h5>
@@ -93,7 +103,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow" id="card-home">
+                <div
+                  className="card position-static bg-light shadow"
+                  id="card-home"
+                >
                   <img src={card4} alt="" className="card-img-top" />
                   <div className="card-body text-center">
                     <h5 className="card-tittle">
@@ -116,14 +129,18 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow" id="card-home">
+                <div
+                  className="card position-static bg-light shadow"
+                  id="card-home"
+                >
                   <img src={card5} alt="" className="card-img-top" />
                   <div className="card-body text-center">
                     <h5 className="card-tittle">
                       Recarga de cartuchos em equipamentos de informática
                     </h5>
                     <p>
-                      Recarregamento de equipamentos como os cartuchos de impressora e dentre outros.
+                      Recarregamento de equipamentos como os cartuchos de
+                      impressora e dentre outros.
                     </p>
                     <Link
                       reloadDocument={true}
@@ -136,13 +153,16 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
-                <div className="card position-static bg-light shadow" id="card-home">
+                <div
+                  className="card position-static bg-light shadow"
+                  id="card-home"
+                >
                   <img src={card6} alt="" className="card-img-top" />
                   <div className="card-body text-center">
                     <h5 className="card-tittle">Agencias de publicidade</h5>
                     <p>
-                      planejar, criar, executar e divulgar campanhas de propaganda e
-                      marketing.
+                      planejar, criar, executar e divulgar campanhas de
+                      propaganda e marketing.
                     </p>
                     <Link
                       reloadDocument={true}
@@ -162,11 +182,10 @@ const Home = () => {
             <div className="row d-flex">
               <div className="col-lg-6 text-white fale-conosco-text align-self-center">
                 <h5>
-                  Precisando de alguma emitir alguma certidão negativa de débitos?
+                  Precisando de alguma emitir alguma certidão negativa de
+                  débitos?
                 </h5>
-                <p>
-                  Clique no botão abaixo e procure a de sua escolha
-                </p>
+                <p>Clique no botão abaixo e procure a de sua escolha</p>
                 <Link reloadDocument={true} to="/certidoes">
                   <button className="btn">Certidões &#62;</button>
                 </Link>
@@ -174,6 +193,10 @@ const Home = () => {
               <img src={imagem} alt="" className="col-lg-6" />
             </div>
           </div>
+        </div>
+        <div className="form-container-home container">
+          <h2 className="tittle tittle-form">Entre em contato</h2>
+          <Form />
         </div>
         <div className="container-fluid map-container">
           <iframe

@@ -6,7 +6,7 @@ import face from "../../assets/images/faceIcon.svg";
 
 const CardsSociais = () => {
   return (
-    <div className="card text-center bg-light border-secondary" id="compartilhe">
+    <div className="card text-center bg-light shadow" id="compartilhe">
       <div className="card-body">
         <div className="card-top">
           <div className="card-tittle">

@@ -82,8 +82,8 @@ const NavBar = () => {
             </div>
           </li>
           <li className="nav-item">
-            <Link reloadDocument={true} className="nav-link" to="/links-uteis">
-              Links Úteis
+            <Link reloadDocument={true} className="nav-link" to="/contato">
+              Contato
             </Link>
           </li>
           <li className="nav-item">

@@ -1,9 +1,8 @@
 import { Link } from "react-router-dom";
-import "./styles.css";
 
 const NavigationCard = () => {
   return (
-    <div className="card text-center bg-light border-secondary" id="navigation">
+    <div className="card text-center bg-light shadow" id="navigation">
       <div className="card-body">
         <h5 className="card-tittle">Navegação</h5>
         <p className="card-text">Continue navegando</p>

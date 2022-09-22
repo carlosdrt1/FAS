@@ -1,0 +1,21 @@
+.form-content-container {
+  padding: 20px 10px;
+}
+
+.form-container {
+  border-radius: 20px;
+  background-color: #f1f1f1;
+  border: solid 1px #aaa;
+  margin-bottom: 30px;
+}
+
+.btn-form {
+  border: solid 1px #e2ca1a !important;
+  border-radius: 7px;
+  height: 40px;
+}
+
+.btn-form:hover{
+    background-color: #e2ca1a;
+    color: white;
+}

@@ -58,6 +58,10 @@
   color: white;
 }
 
+.tittle-form{
+  margin-top: 20px;
+}
+
 .fale-conosco{
   border-top: solid 2px #e2ca1a;
   border-bottom: solid 2px #e2ca1a;
@@ -68,7 +72,9 @@
 
 .map-container{
   padding: 0 !important;
-  margin-bottom: -37px;
+  margin-bottom: -36px;
+  border-top: solid 2px #e2ca1a;
+
 }
 
 @media (min-width: 596px) {
