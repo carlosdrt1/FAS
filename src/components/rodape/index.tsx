@@ -117,10 +117,10 @@ const Footer = () => {
               <li className="list-group-item bg-black">
                 <Link
                   reloadDocument={true}
-                  to="/servicos/recarga-cartuchos"
+                  to="/servicos/assessoria-licitacao"
                   className="nav-link text-white"
                 >
-                  Recarga de cartuchos em equipamentos de informática
+                  Assessoria em Licitação
                 </Link>
               </li>
             </ul>

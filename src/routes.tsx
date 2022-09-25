@@ -24,7 +24,7 @@ const BRoutes = () => {
         <Route path="/servicos/assessoria-controle" element={<Servico2/>} />
         <Route path="/servicos/digitalizacao" element={<Servico3/>} />
         <Route path="/servicos/consultoria-publicidade" element={<Servico4/>} />
-        <Route path="/servicos/recarga-cartuchos" element={<Servico5/>} />
+        <Route path="/servicos/assessoria-licitacao" element={<Servico5/>} />
       </Routes>
       <Footer/>
     </>

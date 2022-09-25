@@ -74,8 +74,8 @@ const NavBar = () => {
                 </li>
                 <div className="dropdown-divider"></div>
                 <li>
-                  <Link reloadDocument={true} to="/servicos/recarga-cartuchos" className="dropdown-item">
-                    Recarga de cartuchos em equipamentos
+                  <Link reloadDocument={true} to="/servicos/assessoria-licitacao" className="dropdown-item">
+                  Assessoria em Licitações
                   </Link>
                 </li>
               </ul>

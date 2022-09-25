@@ -135,16 +135,15 @@ const Home = () => {
                 >
                   <img src={card5} alt="" className="card-img-top" />
                   <div className="card-body text-center">
-                    <h5 className="card-tittle">
-                      Recarga de cartuchos em equipamentos de informática
-                    </h5>
+                    <h5 className="card-tittle">Assessoria em Licitações</h5>
                     <p>
-                      Recarregamento de equipamentos como os cartuchos de
-                      impressora e dentre outros.
+                      Assessoramento em todas as etapas do processo
+                      licitatório, desde a captação de editais, até o fechamento
+                      do contrato, minimizando assim, os riscos de preterimento.
                     </p>
                     <Link
                       reloadDocument={true}
-                      to="/servicos/recarga-cartuchos"
+                      to="/servicos/assessoria-licitacao"
                       className="btn"
                     >
                       Saiba mais
@@ -181,12 +180,13 @@ const Home = () => {
           <div className="container">
             <div className="row d-flex">
               <div className="col-lg-6 text-white fale-conosco-text align-self-center">
-                <h5>
-                  Precisando emitir alguma certidão negativa de
-                  débitos?
-                </h5>
-                <p>Conheça nossas certidões que oferecemos.<br/>
-                 Clique no botão abaixo e procure a de sua escolha dentre as quais ofertamos.</p>
+                <h5>Precisando emitir alguma certidão negativa de débitos?</h5>
+                <p>
+                  Conheça nossas certidões que oferecemos.
+                  <br />
+                  Clique no botão abaixo e procure a de sua escolha dentre as
+                  quais ofertamos.
+                </p>
                 <Link reloadDocument={true} to="/certidoes">
                   <button className="btn">Certidões &#62;</button>
                 </Link>
@@ -194,6 +194,9 @@ const Home = () => {
               <img src={imagem} alt="" className="col-lg-6" />
             </div>
           </div>
+        </div>
+        <div className="nossos-clientes">
+          <h2 className="text-center tittle tittle-form">Nossos clientes</h2>
         </div>
         <div className="form-container-home container">
           <h2 className="tittle tittle-form">Entre em contato</h2>
