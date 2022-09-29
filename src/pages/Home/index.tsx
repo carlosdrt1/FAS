@@ -215,13 +215,26 @@ const Home = () => {
               <div className="carousel-item active" data-bs-interval="10000">
                 <div className="clientes-items">
                   <div className="top-items">
-                  <a href="https://iguatu.ce.gov.br/" target="_blank" rel="noopener noreferrer">
-                    <img src={Iguatu} alt="" />
-                  </a>
-                  <a href="https://camaraacopiara.ce.gov.br/" target="_blank" rel="noopener noreferrer">
-                    <img src={Acopiara} alt="" />
-                  </a></div>
-                  <a href="https://www.camarasolonopole.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://iguatu.ce.gov.br/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={Iguatu} alt="" />
+                    </a>
+                    <a
+                      href="https://camaraacopiara.ce.gov.br/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img src={Acopiara} alt="" />
+                    </a>
+                  </div>
+                  <a
+                    href="https://www.camarasolonopole.ce.gov.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src={Solonópole} alt="" />
                   </a>
                 </div>
@@ -229,22 +242,46 @@ const Home = () => {
               <div className="carousel-item" data-bs-interval="2000">
                 <div className="clientes-items">
                   <div className="top-items">
-                    <a href="https://saboeiro.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://saboeiro.ce.gov.br/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <img src={Saboeiro} alt="" />
                     </a>
-                    <a href="https://www.irapuanpinheiro.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <a
+                      href="https://www.irapuanpinheiro.ce.gov.br/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <img src={Irapuan} alt="" />
                     </a>
                   </div>
-                  <a href="https://www.camaradebarbalha.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                  <a
+                    href="https://www.camaradebarbalha.ce.gov.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <img src={Barbalha} alt="" />
                   </a>
                 </div>
               </div>
               <div className="carousel-item" data-bs-interval="2000">
                 <div className="clientes-items">
-                  <img src={PiquetCarneiro} alt="" />
-                  <img src={CamaraPiquet} alt="" />
+                  <a
+                    href="https://www.piquetcarneiro.ce.gov.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={PiquetCarneiro} alt="" />
+                  </a>
+                  <a
+                    href="https://camarapiquetcarneiro.ce.gov.br/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img src={CamaraPiquet} alt="" />
+                  </a>
                 </div>
               </div>
             </div>
