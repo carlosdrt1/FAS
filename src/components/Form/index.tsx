@@ -38,11 +38,11 @@ const Form = () => {
             <input
               name="telefone"
               type="text"
-              className="form-control"
+              className="form-control phone-ddd-mask"
               id="telefone"
               placeholder="(xx)xxxxxxxx"
               required
-              maxLength={13}
+              maxLength={14}
             />
           </div>
           <div className="mb-3 col-lg-6">

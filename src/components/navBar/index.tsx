@@ -39,7 +39,7 @@ const NavBar = () => {
           <li className="nav-item">
             <div className="dropdown">
               <button
-                className="btn dropdown-toggle btn-dropdown"
+                className="btn nav-link dropdown-toggle btn-dropdown"
                 data-bs-toggle="dropdown"
               >
                 Serviços

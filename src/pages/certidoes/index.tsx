@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import view from "../../assets/images/view.svg";
+import Download from "../../assets/images/download.svg";
 import CardsSociais from "../../components/cardsCompartilhe";
 import FaleConosco from "../../components/faleConosco";
 import NavigationCard from "../../components/navigationCard";
@@ -32,7 +34,7 @@ const Certidoes = () => {
             <li>FGTS</li>
             <li>Falencia Concordata</li>
           </ul>
-          <FaleConosco/>
+          <FaleConosco />
         </div>
         <div className="col-lg-3 col-md-6 navigation-certidoes">
           <div>
@@ -43,62 +45,68 @@ const Certidoes = () => {
           </div>
         </div>
       </div>
-      <div className="row certidoes-container">
-        <div className="col-lg-4 col-md-6">
-          <h5>Debitos federais</h5>
-          <iframe
-            height="350px"
-            width="320px"
-            title="debitos federais"
-            src="https://drive.google.com/file/d/1tuWR4gbFQ2BDoE8PekFbu0zQ5xBcqGYH/preview"
-          />
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <h5>Debitos estaduais</h5>
-          <iframe
-            height="350px"
-            width="320px"
-            title="debitos estaduais"
-            src="https://drive.google.com/file/d/1Z9pYonJRUGTCS76sbGapCoFyKKgh69Ut/preview"
-          />
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <h5>Debitos Municipais</h5>
-          <iframe
-            height="350px"
-            width="320px"
-            title="debitos municipais"
-            src="https://drive.google.com/file/d/1SIctkjvYs0kriJJ8JM39kXSK4Ye_qpXf/preview"
-          />
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <h5>Debitos trabalhistas</h5>
-          <iframe
-            height="350px"
-            width="320px"
-            title="debitos trabalhistas"
-            src="https://drive.google.com/file/d/1Pfiz6gBYS5gO4_cbXZWAOM3H98WuzOwa/preview"
-          />
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <h5>FGTS</h5>
-          <iframe
-            height="350px"
-            width="320px"
-            title="FGTS"
-            src="https://drive.google.com/file/d/1cJFAHRQ2n3sXPPQf7CYLMfXA-xZQJKY8/preview"
-          />
-        </div>
-        <div className="col-lg-4 col-md-6">
-          <h5>Falencia Concordata</h5>
-          <iframe
-            height="350px"
-            width="320px"
-            title="falencia concordata"
-            src="https://drive.google.com/file/d/1lpKA23XqTYO6TvZEvUr8zB5XJu4hEyYY/preview"
-          />
-        </div>
-      </div>
+      <ol className="list-group shadow">
+        <li className="list-group-item d-flex justify-content-between align-items-start">
+          <div className="ms-2 me-auto">
+            <div>Débitos Federais</div>
+          </div>
+          <div className="align-self-center">
+            <a href="https://drive.google.com/file/d/1tuWR4gbFQ2BDoE8PekFbu0zQ5xBcqGYH/view" target="_blank" rel="noopener noreferrer">
+              <img src={Download} alt="" />
+            </a>
+          </div>
+        </li>
+        <li className="list-group-item d-flex justify-content-between align-items-start">
+          <div className="ms-2 me-auto">
+            <div>Debitos Estaduais</div>
+          </div>
+          <div className="align-self-center">
+            <a href="https://drive.google.com/file/d/1Z9pYonJRUGTCS76sbGapCoFyKKgh69Ut/view" target="_blank" rel="noopener noreferrer">
+              <img src={Download} alt="" />
+            </a>
+          </div>
+        </li>
+        <li className="list-group-item d-flex justify-content-between align-items-start">
+          <div className="ms-2 me-auto">
+            <div>Debitos Municipais</div>
+          </div>
+          <div className="align-self-center">
+            <a href="https://drive.google.com/file/d/1SIctkjvYs0kriJJ8JM39kXSK4Ye_qpXf/view" target="_blank" rel="noopener noreferrer">
+              <img src={Download} alt="" />
+            </a>
+          </div>
+        </li>
+        <li className="list-group-item d-flex justify-content-between align-items-start">
+          <div className="ms-2 me-auto">
+            <div>Debitos Trabalhistas</div>
+          </div>
+          <div className="align-self-center">
+            <a href="https://drive.google.com/file/d/1Pfiz6gBYS5gO4_cbXZWAOM3H98WuzOwa/view" target="_blank" rel="noopener noreferrer">
+              <img src={Download} alt="" />
+            </a>
+          </div>
+        </li>
+        <li className="list-group-item d-flex justify-content-between align-items-start">
+          <div className="ms-2 me-auto">
+            <div>FGTS</div>
+          </div>
+          <div className="align-self-center">
+            <a href="https://drive.google.com/file/d/1cJFAHRQ2n3sXPPQf7CYLMfXA-xZQJKY8/view" target="_blank" rel="noopener noreferrer">
+              <img src={Download} alt="" />
+            </a>
+          </div>
+        </li>
+        <li className="list-group-item d-flex justify-content-between align-items-start">
+          <div className="ms-2 me-auto">
+            <div>Falencia Concordata</div>
+          </div>
+          <div className="align-self-center download">
+            <a href="https://drive.google.com/file/d/1lpKA23XqTYO6TvZEvUr8zB5XJu4hEyYY/view" target="_blank" rel="noopener noreferrer">
+              <img src={Download} alt="" />
+            </a>
+          </div>
+        </li>
+      </ol>
     </div>
   );
 };

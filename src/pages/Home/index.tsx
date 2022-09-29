@@ -6,6 +6,15 @@ import card3 from "../../assets/images/card3.svg";
 import card4 from "../../assets/images/card4.svg";
 import card5 from "../../assets/images/card5.svg";
 import card6 from "../../assets/images/card6.svg";
+import Acopiara from "../../assets/images/LogoAcopiara.png";
+import Iguatu from "../../assets/images/LogoIguatu.png";
+import Irapuan from "../../assets/images/LogoIrapuan.png";
+import Barbalha from "../../assets/images/LogoBarbalha.png";
+import PiquetCarneiro from "../../assets/images/logoPiquetCarneiro.png";
+import Saboeiro from "../../assets/images/LogoSaboeiro.png";
+import Solonópole from "../../assets/images/LogoSolonopolis.png";
+import CamaraPiquet from "../../assets/images/LogoCamaraPiquet.png";
+
 import imagem from "../../assets/images/faleConosco.svg";
 import { Link } from "react-router-dom";
 import Form from "../../components/Form";
@@ -137,9 +146,9 @@ const Home = () => {
                   <div className="card-body text-center">
                     <h5 className="card-tittle">Assessoria em Licitações</h5>
                     <p>
-                      Assessoramento em todas as etapas do processo
-                      licitatório, desde a captação de editais, até o fechamento
-                      do contrato, minimizando assim, os riscos de preterimento.
+                      Assessoramento em todas as etapas do processo licitatório,
+                      desde a captação de editais, até o fechamento do contrato,
+                      minimizando assim, os riscos de preterimento.
                     </p>
                     <Link
                       reloadDocument={true}
@@ -197,6 +206,73 @@ const Home = () => {
         </div>
         <div className="nossos-clientes">
           <h2 className="text-center tittle tittle-form">Nossos clientes</h2>
+          <div
+            id="carouselClientes"
+            className="carousel slide carousel-dark"
+            data-bs-ride="carousel"
+          >
+            <div className="carousel-inner">
+              <div className="carousel-item active" data-bs-interval="10000">
+                <div className="clientes-items">
+                  <div className="top-items">
+                  <a href="https://iguatu.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <img src={Iguatu} alt="" />
+                  </a>
+                  <a href="https://camaraacopiara.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <img src={Acopiara} alt="" />
+                  </a></div>
+                  <a href="https://www.camarasolonopole.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <img src={Solonópole} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="carousel-item" data-bs-interval="2000">
+                <div className="clientes-items">
+                  <div className="top-items">
+                    <a href="https://saboeiro.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                      <img src={Saboeiro} alt="" />
+                    </a>
+                    <a href="https://www.irapuanpinheiro.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                      <img src={Irapuan} alt="" />
+                    </a>
+                  </div>
+                  <a href="https://www.camaradebarbalha.ce.gov.br/" target="_blank" rel="noopener noreferrer">
+                    <img src={Barbalha} alt="" />
+                  </a>
+                </div>
+              </div>
+              <div className="carousel-item" data-bs-interval="2000">
+                <div className="clientes-items">
+                  <img src={PiquetCarneiro} alt="" />
+                  <img src={CamaraPiquet} alt="" />
+                </div>
+              </div>
+            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselClientes"
+              data-bs-slide="prev"
+            >
+              <span
+                className="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselClientes"
+              data-bs-slide="next"
+            >
+              <span
+                className="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span className="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
         <div className="form-container-home container">
           <h2 className="tittle tittle-form">Entre em contato</h2>

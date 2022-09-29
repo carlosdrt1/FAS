@@ -43,6 +43,14 @@
     padding-bottom: 3px;
 }
 
+.nav-item .dropdown .btn{
+    border: none !important;
+}
+
+.nav-item .dropdown{
+    margin-bottom: -4px !important;
+}
+
 .whats-btn{
     margin-left: 8px;
 }

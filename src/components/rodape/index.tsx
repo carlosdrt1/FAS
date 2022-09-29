@@ -135,7 +135,7 @@ const Footer = () => {
                   rel="noopener noreferrer"
                   className="nav-link text-white"
                 >
-                  Av. José Marques Filho, 97 - Centro, Acopiara - CE, 63560-000
+                  Av. Pedro Alves, 97 - Centro, Acopiara - CE, 63560-000
                 </a>
               </li>
             </ul>
