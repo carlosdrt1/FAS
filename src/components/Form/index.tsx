@@ -7,7 +7,7 @@ const Form = () => {
         <div className="row form-content-container">
           <div className="mb-3 col-lg-6">
             <label htmlFor="name" className="form-label">
-              Nome
+              Nome<span className="obrigatorio">*</span>
             </label>
             <input
               name="nome"
@@ -20,7 +20,7 @@ const Form = () => {
           </div>
           <div className="mb-3 col-lg-6">
             <label htmlFor="Email" className="form-label">
-              E-mail
+              E-mail<span className="obrigatorio">*</span>
             </label>
             <input
               name="email"
@@ -33,7 +33,7 @@ const Form = () => {
           </div>
           <div className="mb-3 col-lg-6">
             <label htmlFor="Telefone" className="form-label">
-              Telefone
+              Telefone<span className="obrigatorio">*</span>
             </label>
             <input
               name="telefone"

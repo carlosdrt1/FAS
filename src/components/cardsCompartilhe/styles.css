@@ -9,7 +9,7 @@
     height: 1px;
     background-color: #aaa;
 }
-
+    
 .card-img img:hover{
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
