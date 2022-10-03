@@ -7,6 +7,14 @@
     display: none;
 }
 
+.icon-download{
+    margin-right: 4px;
+}
+
+.icon-download:hover svg path{
+    fill: #e2ca1a;
+}
+
 .text-certidoes{
     margin-bottom: 25px;
 }
